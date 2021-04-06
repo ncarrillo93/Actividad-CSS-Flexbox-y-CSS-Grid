@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    font-family: 'Kumbh Sans', sans-serif;
+    background-color: var(--primary-dark-cyan);
+}
+:root {
+	--primary-dark-cyan: hsl(185, 75%, 39%);
+	--primary-very-dark-blue: hsl(229, 23%, 23%);
+	--primary-dark-blue: hsl(227, 10%, 46%);
+	--dark_gray: hsl(0, 0%, 91%);
+}
+.navbar {
+    display: flex;
+}
+.boton{
+    margin: 1rem;
+    background-color:vaR(--primary-dark-cyan); /* Green */
+    display: flex;
+    border: 0;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 10px;
+    border-radius: 5rem;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.fullscreen{
+    position:absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    height:auto;
+    width:auto;
+}
+.container {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+.column{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.row{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction:row;
+}
+.flex-container { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.nowrap {
+    flex-wrap: nowrap; 
+} 
+.wrap {
+    flex-wrap: wrap; 
+} 
+.wrap .flex-item { 
+    background: gold; 
+} 
+.wrap-reverse { 
+    flex-wrap: wrap-reverse; 
+} 
+.wrap-reverse .flex-item { 
+    background: deepskyblue; 
+} 
+.flex-item { 
+    width: 349px; 
+    height: 400px; 
+    margin: 1px; 
+    color: var(--primary-very-dark-blue); 
+    font-size: 2em; 
+    font-weight: bold; 
+    justify-content: center;
+    text-align: center; 
+    box-shadow: 3rem;
+    border-radius: 1rem;
+}
+.background{
+    background-image: url(./images/bg-pattern-card.svg);
+    background-repeat: repeat-x;
+    background-position:top;
+    background-color: white;
+}
+.image{
+    margin-top: 5.5rem;
+    border-width: 5px;
+    border-radius: 4rem;
+    border-color: white;
+    border-width: 4px;
+    border-style: solid;
+}
+.text-400{
+    margin: 1rem;
+    font-size: large;
+    font-weight: 400;
+}
+.text-700{
+    font-size: large;
+    font-weight: 700;
+}
+.linea{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+.title{
+    text-align: center;
+}
